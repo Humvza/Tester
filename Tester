@@ -1,0 +1,13 @@
+player = game.Players.LocalPlayer
+
+while wait(1) do
+
+player.Character.Head.CanCollide = false
+
+player.Character.Head.Size = Vector3.new(2.25, 2.25, 2.25)
+
+player.Character.Head.Transparency = 0.25
+
+player.Character.Head.face.Transparency = 1 
+
+end
